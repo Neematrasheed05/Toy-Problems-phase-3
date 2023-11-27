@@ -16,8 +16,7 @@ def solve(word):
                 
     if start < len(word):
         substrings.append(word[start:])
-        
-    print(substrings)
+    
     
     # Assign values to substrings
     substring_values = {}
@@ -28,4 +27,3 @@ def solve(word):
     #.values() When called on a dictionary, it returns a view of all values in the dictionary.
     return max(substring_values.values())
 
-print(solve("woman"))

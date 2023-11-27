@@ -5,5 +5,5 @@ def positive_number(a,b,c):
     else:
         return False
     
-print(positive_number(4, -6, 9))
+
     
